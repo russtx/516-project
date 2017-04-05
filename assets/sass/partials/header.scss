@@ -1,0 +1,56 @@
+/**
+ * partials/header
+ * ---
+ */
+ .nav input[type="checkbox"]{
+     display:none;
+ }
+ .nav #menu-btn{
+ 	display: none;
+ }
+
+.volunteer{
+  background: $light-gold;
+  height: 30px;
+  padding: 9px;
+  a{
+    color:#fff;
+  	display: block;
+  	text-align: center;
+  }
+}
+.newsletter {
+	background:$blue;
+	height: 110px;
+  padding: 9px;
+  p{
+    color:#fff;
+  	display: block;
+  	text-align: center;
+  }
+  #wpcf7-f32-o1 > form > p:nth-child(2) > span > input{
+    width:200px;
+  }
+  input[type="submit"]{
+    background: $light-blue;
+  }
+}
+.donate {
+	background: $red;
+	height: 30px;
+  padding: 9px;
+  a{
+    color:#fff;
+  	display: block;
+  	text-align: center;
+  }
+}
+.socialIcons{
+  display: flex;
+  justify-content: space-between;
+  margin: 18px 25px 0;
+  .fa{
+    font-size: 30px;
+    color:$light-blue;
+  }
+}

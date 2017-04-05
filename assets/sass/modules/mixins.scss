@@ -1,0 +1,15 @@
+/**
+ * modules/mixins
+ * ---
+ */
+
+
+@mixin reset-box {
+  padding: 0;
+  margin: 0;
+}
+
+$light-gold:rgb(220, 196, 142);
+$blue:rgb(28, 60, 91);
+$light-blue:rgb(73, 102, 161);
+$red:rgb(163, 22, 33);

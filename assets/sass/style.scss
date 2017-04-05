@@ -1,0 +1,35 @@
+/*!
+	Theme Name: 516 Project
+	Theme URI: http://html5blank.com
+	Description: HTML5 Blank WordPress Theme
+	Version: 1.4.3
+	Author: Todd Motto (@toddmotto)
+	Author URI: http://toddmotto.com
+	Tags: Blank, HTML5, CSS3
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------*\
+    Imports
+\*------------------------------------*/
+@import "_bootstrap.scss";
+@import "font-awesome-4.7.0/scss/font-awesome.scss";
+@import "mobile-menu.scss";
+
+// Modules
+@import "modules/variables";
+@import "modules/mixins";
+@import "modules/fonts";
+
+// Partials
+@import "partials/reset";
+@import "partials/wordpress";
+@import "partials/utils";
+@import "partials/wrapper";
+@import "partials/header";
+@import "partials/nav";
+@import "partials/main";
+@import "partials/sidebar";
+@import "partials/footer";
+@import "partials/print";
